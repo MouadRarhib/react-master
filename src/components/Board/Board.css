@@ -1,0 +1,92 @@
+.board {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.board h2 {
+  margin-bottom: 20px;
+}
+
+.card-button {
+  margin-bottom: 20px;
+}
+
+
+.card-button-add {
+  padding: 10px 20px;
+  border: none;
+  background-color: #6e178e; /* Green */
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.task-form {
+  margin-bottom: 20px;
+}
+
+.task-form input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-form button {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.lists {
+  display: flex;
+  gap: 20px;
+}
+
+.lists .list h3{
+  color: black;
+  justify-content: center;
+  display: flex;
+  font-size: x-large;
+}
+
+.lists .list .cards .card{
+  background-color:black ;
+  width: 250px;
+  justify-content:space-around;
+}
+
+.lists .list .cards .card h2{
+  display: flex;
+  justify-content: center;
+  color:  #fff;
+}
+
+.lists .list .cards .card h4{
+  color:  #fff;
+}
+
+.task-form .card-button-done{
+  background-color: #6e178e; /* Green */
+}
+
+.task-form .card-button-cancel{
+  background-color: hsl(283, 38%, 66%);
+}
+
+
+.task-form .buttons{
+  display: flex;
+  justify-content: space-evenly;
+}

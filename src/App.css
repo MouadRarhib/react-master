@@ -1,0 +1,113 @@
+/* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+   */
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Ensure full width and height for root element */
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Main application container */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+}
+
+/* Navigation styling */
+.navigation ul {
+  display: flex;
+  list-style: none;
+}
+
+.navigation li {
+  margin: 0 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Search and Profile container */
+.search-profile {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  margin-right: 20px;
+}
+
+.search-bar input {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Main content styling */
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.board {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.cards {
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  position: relative;
+  
+}
+
+.card h2 {
+  margin-bottom: 5px;
+}
+
+.card h4 {
+  color: black;
+  margin-bottom: 60px ;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 10px;
+  /* position: absolute; */
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #fff;
+
+}
+
+.card-button.update {
+  background-color: #6e178e; /* Green */
+}
+
+.card-button.delete {
+  background-color: hsl(283, 38%, 66%); /* Red */
+}
+
+.card-button.display {
+  background-color: #2196f3; /* Blue */
+}
